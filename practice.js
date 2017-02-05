@@ -1,4 +1,4 @@
-// Functional.js
+// practice.js
 // (c) 2017 mtso
 
 var ƒ = {};
@@ -23,3 +23,7 @@ var _ = function(obj) {
     callback( array[i], i );
   }
 };
+
+ƒ = function() {
+
+}
