@@ -1,7 +1,9 @@
 // practice.js
 // (c) 2017 mtso
 
-var ƒ = {};
+(function() {
+this.ƒ = {};
+var ƒ = this.ƒ;
 
 /* ????
 // Create a safe reference to the Underscore object for use below.
@@ -24,6 +26,5 @@ var _ = function(obj) {
   }
 };
 
-ƒ = function() {
-
-}
+}());
+// }).call(this);
